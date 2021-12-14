@@ -1,5 +1,5 @@
 {
-  "name": "web-app",
+  "name": "idm-ui",
   "private": true,
   "scripts": {
     "dev": "next dev",
