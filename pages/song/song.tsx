@@ -7,7 +7,7 @@ import { MSG_BUTTON } from './messages'
 export const Song = () => {
   return (
     <div className={styles.main}>
-      <Button variant="contained">{MSG_BUTTON}</Button>
+      <Button color="secondary" variant="contained" size="large">{MSG_BUTTON}</Button>
   </div>
   )
 }
