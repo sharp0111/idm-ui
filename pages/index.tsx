@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 
-import { Song } from './song'
+import { DetectSong } from './detect-song'
 
 const Home: NextPage = () => {
   return (
-    <Song />
+    <DetectSong />
   )
 }
 

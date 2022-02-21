@@ -4,7 +4,7 @@ import styles from '../../styles/Home.module.scss'
 
 import { MSG_BUTTON } from './messages'
 
-export const Song = () => {
+export const DetectSong = () => {
   return (
     <div className={styles.main}>
       <Button color="secondary" variant="contained" size="large">{MSG_BUTTON}</Button>
