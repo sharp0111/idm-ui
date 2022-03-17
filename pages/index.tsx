@@ -1,11 +1,3 @@
-import type { NextPage } from 'next'
-
-import { DetectSong } from './detect-song'
-
-const Home: NextPage = () => {
-  return (
-    <DetectSong />
-  )
-}
+import { HomeContainer as Home } from './home'
 
 export default Home
