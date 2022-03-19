@@ -1,20 +1,14 @@
 import React from 'react'
 import { Button, ButtonGroup } from '../../components'
-import { ActiveLink, DETECT_URL, CHART_URL, DETAILS_URL } from '../routing'
+import { ActiveLink, ID_SONG_URL } from '../routing'
 
-import { MSG_DETECT, MSG_CHART, MSG_DETAILS } from './messages'
+import { MSG_ID_SONG } from './messages'
 
 export function HomeContainer() {
   return (
     <ButtonGroup>
-      <ActiveLink href={DETECT_URL}>
-        <Button color="secondary" variant="contained" size="large">{MSG_DETECT}</Button>
-      </ActiveLink>
-      <ActiveLink href={CHART_URL}>
-        <Button color="secondary" variant="contained" size="large">{MSG_CHART}</Button>
-      </ActiveLink>
-      <ActiveLink href={DETAILS_URL}>
-        <Button color="secondary" variant="contained" size="large">{MSG_DETAILS}</Button>
+      <ActiveLink href={ID_SONG_URL}>
+        <Button color="secondary" variant="contained" size="large">{MSG_ID_SONG}</Button>
       </ActiveLink>
     </ButtonGroup>
   )

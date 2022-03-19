@@ -1,3 +1,1 @@
-export const MSG_DETECT = 'DETECT'
-export const MSG_CHART = 'CHART'
-export const MSG_DETAILS = 'DETAILS'
+export const MSG_ID_SONG = 'ID SONG'
