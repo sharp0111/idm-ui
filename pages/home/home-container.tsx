@@ -1,15 +1,15 @@
 import React from 'react'
 import { Button } from '../../components'
-import { ActiveLink, ID_SONG_URL } from '../routing'
+import { ActiveLink, IDM_URL } from '../routing'
 import { Search } from '../search'
 
-import { MSG_ID_SONG } from './messages'
+import { MSG_IDM } from './messages'
 
 export function HomeContainer() {
   return (
     <>
-      <ActiveLink href={ID_SONG_URL}>
-        <Button color="secondary" variant="contained" size="large">{MSG_ID_SONG}</Button>
+      <ActiveLink href={IDM_URL}>
+        <Button color="secondary" variant="contained" size="large">{MSG_IDM}</Button>
       </ActiveLink>
       <Search />
     </>

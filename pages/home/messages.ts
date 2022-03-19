@@ -1,1 +1,1 @@
-export const MSG_ID_SONG = 'ID SONG'
+export const MSG_IDM = 'IDM'
