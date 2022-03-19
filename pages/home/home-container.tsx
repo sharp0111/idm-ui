@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, ButtonGroup } from '../../components'
+import { Button } from '../../components'
 import { ActiveLink, ID_SONG_URL } from '../routing'
 import { Search } from '../search'
 
