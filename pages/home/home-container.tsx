@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from '../../components'
 import { ActiveLink, IDM_URL } from '../routing'
-import { Search } from '../search'
+import Search from '../search'
 
 import { MSG_IDM } from './messages'
 
