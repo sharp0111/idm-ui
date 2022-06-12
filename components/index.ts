@@ -1,6 +1,7 @@
 export * from './autocomplete'
 export * from './button'
 export * from './buttongroup'
+export * from './progress'
 export * from './table'
 export * from './textfield'
 export * from './typography'
