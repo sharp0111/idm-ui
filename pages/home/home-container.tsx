@@ -1,8 +1,8 @@
 import React from 'react'
-import Idm from '../idm'
+import Search from '../search'
 
 export function HomeContainer() {
   return (
-    <Idm />
+    <Search />
   )
 }
