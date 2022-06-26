@@ -1,1 +1,3 @@
-export { HomeContainer } from './home-container'
+import { HomeContainer as Home } from './home-container'
+
+export default Home
