@@ -1,9 +1,14 @@
 import React from 'react'
 import { TextField } from '../../components'
 import { LABEL } from './messages'
+import styles from './search.module.scss'
 
-export function Search() {
+export const CN = 'search_container'
+
+export const Search = () => {
   return (
-    <TextField id="standard-basic" label={LABEL} variant="standard" />
+    <div className={styles[CN]}>
+      <TextField className={styles[`${CN}-textfield`]} id="outlined-basic" label={LABEL} variant="outlined" />
+    </div>
   )
 }
