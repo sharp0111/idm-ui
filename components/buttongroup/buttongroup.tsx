@@ -3,10 +3,6 @@ import { ButtonGroup as MuiButtonGroup, ButtonGroupProps as MuiButtonGroupProps 
 
 type ButtonGroupProps = MuiButtonGroupProps;
 
-export function ButtonGroup(props: ButtonGroupProps) {
-  return (
-    <div>
-      <MuiButtonGroup {...props} />
-    </div>
-  )
-}
+export const ButtonGroup = (props: ButtonGroupProps) => (
+  <MuiButtonGroup {...props} />
+)

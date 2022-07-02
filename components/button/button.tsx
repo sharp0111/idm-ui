@@ -4,10 +4,8 @@ import styles from './button.module.scss'
 
 type ButtonProps = MuiButtonProps;
 
-export function Button(props: ButtonProps) {
-  return (
-    <div className={styles.main}>
-      <MuiButton {...props} />
-    </div>
-  )
-}
+export const Button = (props: ButtonProps) => (
+  <div className={styles.main}>
+    <MuiButton {...props} />
+  </div>
+)

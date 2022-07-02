@@ -4,8 +4,6 @@ import styles from './textfield.module.scss'
 
 export type TextFieldProps = MuiTextFieldProps
 
-export function TextField(props: TextFieldProps) {
-  return (
-    <MuiTextField className={styles.main} {...props} />
-  )
-}
+export const TextField = (props: TextFieldProps) => (
+  <MuiTextField className={styles.main} {...props} />
+)
