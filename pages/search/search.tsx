@@ -14,16 +14,21 @@ export const Search: React.FunctionComponent = () => {
     setSearchValue(value)
   }, [setSearchValue])
 
+  const fetchResults = useCallback(async () => {
+    const response = await fetch(`http://127.0.0.1:5000/search?term=${searchValue}`)
+    return response.json()
+  }, [searchValue])
+
   const handleClick = useCallback(async (event: React.BaseSyntheticEvent) => {
     event.preventDefault()
     try {
-      const response = await fetch(`http://127.0.0.1:5000/search?term=${searchValue}`)
-      console.log(response);
+      const data = await fetchResults()
+      setSearchResults(data)
     } catch (error) {
       console.error(JSON.parse(JSON.stringify(error)))
       throw error
     }
-  }, [searchValue])
+  }, [fetchResults])
 
   return (
     <div className={styles[CN]}>
@@ -36,13 +41,13 @@ export const Search: React.FunctionComponent = () => {
         type="search"
         value={searchValue}
         variant="outlined" />
-        <Button
-          className={`${CN}-button`}
-          onClick={handleClick}
-          variant="outlined"
-        >
-          {MSG_BUTTON}
-        </Button>
+      <Button
+        className={`${CN}-button`}
+        onClick={handleClick}
+        variant="outlined"
+      >
+        {MSG_BUTTON}
+      </Button>
     </div>
   )
 }
