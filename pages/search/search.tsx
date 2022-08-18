@@ -1,9 +1,6 @@
-import React, { useState, useCallback } from 'react'
-import { TextField, Button } from '../../components'
-import { MSG_PLACEHOLDER, MSG_BUTTON } from './messages'
-import styles from './search.module.scss'
-
-export const CN = 'search_container'
+import React, { useState, useCallback, useEffect } from 'react'
+import { TextField, IconButton, SearchIcon } from '../../components'
+import { MSG_PLACEHOLDER } from './messages'
 
 export const Search: React.FunctionComponent = () => {
   const [searchValue, setSearchValue] = useState('');
@@ -30,24 +27,29 @@ export const Search: React.FunctionComponent = () => {
     }
   }, [fetchResults])
 
+  useEffect(() => {
+    console.log(searchResults)
+  }, [searchResults])
+
   return (
-    <div className={styles[CN]}>
+    <div id="container">
       <TextField
         autoFocus
-        className={styles[`${CN}-textfield`]}
+        fullWidth
+        InputProps={{
+          endAdornment: (
+            <IconButton type="button" sx={{ p: '10px' }} aria-label="search" onClick={handleClick}>
+              <SearchIcon />
+            </IconButton>
+          )
+        }}
         id="outlined-basic"
         label={MSG_PLACEHOLDER}
         onChange={handleChange}
         type="search"
         value={searchValue}
-        variant="outlined" />
-      <Button
-        className={`${CN}-button`}
-        onClick={handleClick}
         variant="outlined"
-      >
-        {MSG_BUTTON}
-      </Button>
+      />
     </div>
   )
 }
