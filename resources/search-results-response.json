@@ -1,0 +1,435 @@
+{
+  "artists": {
+    "hits": [
+      {
+        "artist": {
+          "adamid": "1349968534",
+          "avatar": "https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/bc/16/da/bc16dac8-6552-09a0-4476-53cc09db40f9/pr_source.png/800x800bb.jpg",
+          "name": "King Princess",
+          "verified": false,
+          "weburl": "https://music.apple.com/us/artist/king-princess/1349968534"
+        }
+      },
+      {
+        "artist": {
+          "adamid": "448059866",
+          "avatar": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/c6/8d/55/c68d55c6-5bfb-5df9-8470-ab526c8173b8/cover.jpg/800x800ac.jpg",
+          "name": "1950",
+          "verified": false,
+          "weburl": "https://music.apple.com/us/artist/1950/448059866"
+        }
+      },
+      {
+        "artist": {
+          "adamid": "1242382133",
+          "avatar": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/ff/4f/73/ff4f7360-4fba-7001-1e6e-c5176b88deba/pr_source.png/800x800bb.jpg",
+          "name": "The 1950s",
+          "verified": false,
+          "weburl": "https://music.apple.com/us/artist/the-1950s/1242382133"
+        }
+      },
+      {
+        "artist": {
+          "adamid": "1488798149",
+          "name": "Audience, February 7th, 1950 - Tonhalle Z\u00fcrich",
+          "verified": false,
+          "weburl": "https://music.apple.com/us/artist/audience-february-7th-1950-tonhalle-z%C3%BCrich/1488798149"
+        }
+      },
+      {
+        "artist": {
+          "adamid": "1383308038",
+          "name": "Audience, March 27, 1950 - Madison, Wisconsin, USA",
+          "verified": false,
+          "weburl": "https://music.apple.com/us/artist/audience-march-27-1950-madison-wisconsin-usa/1383308038"
+        }
+      }
+    ]
+  },
+  "tracks": {
+    "hits": [
+      {
+        "track": {
+          "artists": [
+            {
+              "adamid": "1349968534",
+              "id": "42"
+            }
+          ],
+          "hub": {
+            "actions": [
+              {
+                "id": "1396670393",
+                "name": "apple",
+                "type": "applemusicplay"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/31/09/61310942-b1d1-bae9-e094-9bb586a04f0f/mzaf_12193598511331718069.plus.aac.ep.m4a"
+              }
+            ],
+            "displayname": "APPLE MUSIC",
+            "explicit": true,
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "options": [
+              {
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/1950/1396670015?i=1396670393&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/1950/1396670015?i=1396670393&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "providername": "applemusic",
+                  "type": "open"
+                },
+                "caption": "OPEN",
+                "colouroverflowimage": false,
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "providername": "applemusic",
+                "type": "open"
+              },
+              {
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/1950/1396670015?i=1396670393&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "providername": "itunes",
+                  "type": "buy"
+                },
+                "caption": "BUY",
+                "colouroverflowimage": false,
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "providername": "itunes",
+                "type": "buy"
+              }
+            ],
+            "providers": [
+              {
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:1950%20King%20Princess"
+                  }
+                ],
+                "caption": "Open in Spotify",
+                "images": {
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png",
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png"
+                },
+                "type": "SPOTIFY"
+              },
+              {
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%271950%27%20artist%3A%27King+Princess%27%7D"
+                  }
+                ],
+                "caption": "Open in Deezer",
+                "images": {
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png",
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png"
+                },
+                "type": "DEEZER"
+              }
+            ],
+            "type": "APPLEMUSIC"
+          },
+          "images": {
+            "background": "https://is3-ssl.mzstatic.com/image/thumb/Music116/v4/bc/16/da/bc16dac8-6552-09a0-4476-53cc09db40f9/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/83/4c/69834c81-f58d-8261-97ce-433ae3a84a5d/886446970974.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/83/4c/69834c81-f58d-8261-97ce-433ae3a84a5d/886446970974.jpg/400x400cc.jpg",
+            "joecolor": "b:d9879dp:090c0as:131060t:332528q:3a276c"
+          },
+          "key": "407894846",
+          "layout": "5",
+          "share": {
+            "avatar": "https://is3-ssl.mzstatic.com/image/thumb/Music116/v4/bc/16/da/bc16dac8-6552-09a0-4476-53cc09db40f9/pr_source.png/800x800cc.jpg",
+            "href": "https://www.shazam.com/track/407894846/1950",
+            "html": "https://www.shazam.com/snippets/email-share/407894846?lang=en-US&country=US",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/83/4c/69834c81-f58d-8261-97ce-433ae3a84a5d/886446970974.jpg/400x400cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/407894846",
+            "subject": "1950 - King Princess",
+            "text": "I used Shazam to discover 1950 by King Princess.",
+            "twitter": "I used @Shazam to discover 1950 by King Princess."
+          },
+          "subtitle": "King Princess",
+          "title": "1950",
+          "type": "MUSIC",
+          "url": "https://www.shazam.com/track/407894846/1950"
+        }
+      },
+      {
+        "track": {
+          "artists": [
+            {
+              "adamid": "448059866",
+              "id": "42"
+            }
+          ],
+          "hub": {
+            "actions": [
+              {
+                "id": "985460449",
+                "name": "apple",
+                "type": "applemusicplay"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e6/1d/ab/e61dabfc-2d08-9628-bfc1-66a9f85b7079/mzaf_17387613626511732430.plus.aac.ep.m4a"
+              }
+            ],
+            "displayname": "APPLE MUSIC",
+            "explicit": false,
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "options": [
+              {
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/follow-me-feat-ruby-blu/985459761?i=985460449&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/follow-me-feat-ruby-blu/985459761?i=985460449&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "providername": "applemusic",
+                  "type": "open"
+                },
+                "caption": "OPEN",
+                "colouroverflowimage": false,
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "providername": "applemusic",
+                "type": "open"
+              },
+              {
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/follow-me-feat-ruby-blu/985459761?i=985460449&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "providername": "itunes",
+                  "type": "buy"
+                },
+                "caption": "BUY",
+                "colouroverflowimage": false,
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "providername": "itunes",
+                "type": "buy"
+              }
+            ],
+            "providers": [
+              {
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Follow%20Me%201950"
+                  }
+                ],
+                "caption": "Open in Spotify",
+                "images": {
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png",
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png"
+                },
+                "type": "SPOTIFY"
+              },
+              {
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Follow+Me%27%20artist%3A%271950%27%7D"
+                  }
+                ],
+                "caption": "Open in Deezer",
+                "images": {
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png",
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png"
+                },
+                "type": "DEEZER"
+              }
+            ],
+            "type": "APPLEMUSIC"
+          },
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c3/33/71/c3337197-5db2-ca78-0da1-640609799d4e/4251100509016_1448.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c3/33/71/c3337197-5db2-ca78-0da1-640609799d4e/4251100509016_1448.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c3/33/71/c3337197-5db2-ca78-0da1-640609799d4e/4251100509016_1448.jpg/400x400cc.jpg",
+            "joecolor": "b:cacbcdp:370f0cs:5a0a13t:553532q:703038"
+          },
+          "key": "79209823",
+          "layout": "5",
+          "share": {
+            "href": "https://www.shazam.com/track/79209823/follow-me",
+            "html": "https://www.shazam.com/snippets/email-share/79209823?lang=en-US&country=US",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c3/33/71/c3337197-5db2-ca78-0da1-640609799d4e/4251100509016_1448.jpg/400x400cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/79209823",
+            "subject": "Follow Me - 1950 Feat. Ruby Blu",
+            "text": "I used Shazam to discover Follow Me by 1950 Feat. Ruby Blu.",
+            "twitter": "I used @Shazam to discover Follow Me by 1950 Feat. Ruby Blu."
+          },
+          "subtitle": "1950 Feat. Ruby Blu",
+          "title": "Follow Me",
+          "type": "MUSIC",
+          "url": "https://www.shazam.com/track/79209823/follow-me"
+        }
+      },
+      {
+        "track": {
+          "artists": [
+            {
+              "adamid": "448059866",
+              "id": "42"
+            }
+          ],
+          "hub": {
+            "actions": [
+              {
+                "id": "985460525",
+                "name": "apple",
+                "type": "applemusicplay"
+              },
+              {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cb/f9/3e/cbf93e34-9c55-d414-96f3-7493d948dca6/mzaf_1532778061677884936.plus.aac.ep.m4a"
+              }
+            ],
+            "displayname": "APPLE MUSIC",
+            "explicit": false,
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "options": [
+              {
+                "actions": [
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/im-a-1950s-girl/985459761?i=985460525&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  },
+                  {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/im-a-1950s-girl/985459761?i=985460525&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "providername": "applemusic",
+                  "type": "open"
+                },
+                "caption": "OPEN",
+                "colouroverflowimage": false,
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "providername": "applemusic",
+                "type": "open"
+              },
+              {
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/im-a-1950s-girl/985459761?i=985460525&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                  }
+                ],
+                "beacondata": {
+                  "providername": "itunes",
+                  "type": "buy"
+                },
+                "caption": "BUY",
+                "colouroverflowimage": false,
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "providername": "itunes",
+                "type": "buy"
+              }
+            ],
+            "providers": [
+              {
+                "actions": [
+                  {
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:I%27m%20A%201950%27s%20Girl%201950"
+                  }
+                ],
+                "caption": "Open in Spotify",
+                "images": {
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png",
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png"
+                },
+                "type": "SPOTIFY"
+              },
+              {
+                "actions": [
+                  {
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27I%5C%27m+A+1950%5C%27s+Girl%27%20artist%3A%271950%27%7D"
+                  }
+                ],
+                "caption": "Open in Deezer",
+                "images": {
+                  "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png",
+                  "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png"
+                },
+                "type": "DEEZER"
+              }
+            ],
+            "type": "APPLEMUSIC"
+          },
+          "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c3/33/71/c3337197-5db2-ca78-0da1-640609799d4e/4251100509016_1448.jpg/400x400cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c3/33/71/c3337197-5db2-ca78-0da1-640609799d4e/4251100509016_1448.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c3/33/71/c3337197-5db2-ca78-0da1-640609799d4e/4251100509016_1448.jpg/400x400cc.jpg",
+            "joecolor": "b:cacbcdp:370f0cs:5a0a13t:553532q:703038"
+          },
+          "key": "96934921",
+          "layout": "5",
+          "share": {
+            "href": "https://www.shazam.com/track/96934921/im-a-1950s-girl",
+            "html": "https://www.shazam.com/snippets/email-share/96934921?lang=en-US&country=US",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c3/33/71/c3337197-5db2-ca78-0da1-640609799d4e/4251100509016_1448.jpg/400x400cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/96934921",
+            "subject": "I'm A 1950's Girl - 1950",
+            "text": "I used Shazam to discover I'm A 1950's Girl by 1950.",
+            "twitter": "I used @Shazam to discover I'm A 1950's Girl by 1950."
+          },
+          "subtitle": "1950",
+          "title": "I'm A 1950's Girl",
+          "type": "MUSIC",
+          "url": "https://www.shazam.com/track/96934921/im-a-1950s-girl"
+        }
+      }
+    ]
+  }
+}
