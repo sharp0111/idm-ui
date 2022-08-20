@@ -4,10 +4,18 @@ import styles from './icon-button.module.scss'
 
 const CN = 'icon-button-container'
 
-type IconButtonProps = MuiIconButtonProps
+interface CustomProps {
+  containerclass?: string
+}
 
-export const IconButton = (props: IconButtonProps) => (
-  <div className={styles[CN]}>
-    <MuiIconButton {...props} />
-  </div>
-)
+type IconButtonProps = MuiIconButtonProps & CustomProps
+
+export const IconButton = (props: IconButtonProps) => {
+  const containerClassName = `${styles[CN]} ${props.containerclass}`
+
+  return (
+    <div className={containerClassName}>
+      <MuiIconButton {...props} />
+    </div>
+  )
+}
