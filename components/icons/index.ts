@@ -1,5 +1,6 @@
-import SearchIcon from '@mui/icons-material/Search'
-import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import MicIcon from '@mui/icons-material/Mic';
+import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
+import SearchIcon from '@mui/icons-material/Search'
+import StopCircleOutlinedIcon from '@mui/icons-material/StopCircleOutlined';
 
-export { SearchIcon, PlayCircleOutlineIcon, MicIcon }
+export { MicIcon, PlayCircleOutlineIcon, SearchIcon, StopCircleOutlinedIcon }
