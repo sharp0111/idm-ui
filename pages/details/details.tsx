@@ -1,6 +1,8 @@
 import React from 'react'
 import { TITLE, ARTIST, AUDIO } from './messages'
 
+import * as detectSongResponse from '../../resources/detect-song-response.json'
+
 const SONG_DETAILS = {
   title: 'River Flows In You',
   artist: 'Yiruma',
@@ -14,6 +16,8 @@ interface DetailsProps {
 
 export const Details = (props: DetailsProps) => {
   const { artist, title } = props
+
+  console.log(detectSongResponse);
 
   return (
     <>
