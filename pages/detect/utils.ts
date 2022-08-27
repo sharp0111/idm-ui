@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 //API to handle audio recording
 export const audioRecorder = {
   /** Stores the recorded audio as Blob objects of audio data as the recording continues*/
@@ -153,7 +155,7 @@ export function StartAudioRecording() {
 export function StopAudioRecording() {
   //stop the recording using the audio recording API
   console.log("Stopping Audio Recording...")
-  audioRecorder.stop()
+  return audioRecorder.stop()
     .then(audioAsblob => { //stopping makes promise resolves to the blob file of the recorded audio
       console.log("stopped with audio Blob:", audioAsblob)
 
@@ -180,3 +182,13 @@ export function cancelAudioRecording() {
 
   //Do something after audio recording is cancelled
 }
+
+export function blobToBase64(blob: Blob) {
+  const reader = new FileReader();
+  reader.readAsDataURL(blob);
+  return new Promise(resolve => {
+    reader.onloadend = () => {
+      resolve(reader.result);
+    };
+  });
+};

@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import { IconButton, MicIcon, StopCircleOutlinedIcon } from '../../components'
-import { StartAudioRecording, StopAudioRecording } from './utils'
+import { StartAudioRecording, StopAudioRecording, blobToBase64 } from './utils'
 import styles from './detect.module.scss'
 
 /**
@@ -15,24 +15,25 @@ const CN = 'detect-container'
 const URL = 'http://127.0.0.1:5000/songs/detect'
 
 export const Detect: React.FunctionComponent = () => {
-  const [audioBlob, setAudioBlob] = useState<Blob | unknown>(null)
   const [inProgress, setInProgress] = useState(false)
 
-  const detectApiResults = useCallback(async () => {
-    const requestBody = Object.assign({ method: 'POST' }, audioBlob)
+  const detectApiResults = async (audioBlob: Blob) => {
+    const audioBlobBase64 = await blobToBase64(audioBlob) as unknown as BodyInit
+    const audioBlobBase64String = audioBlobBase64.toString().replace('data:audio/webm;codecs=opus;base64,', '')
+    const requestBody: RequestInit = { body: audioBlobBase64String, method: 'POST', mode: 'no-cors' }
     const response = await fetch(URL, requestBody)
-    const data = response.json()
-    console.log(data)
-  }, [audioBlob])
+    console.log(response)
+  }
 
   return (
     <div>
       {inProgress ? (
-        <IconButton containerclass={styles[CN]} onClick={() => {
+        <IconButton containerclass={styles[CN]} onClick={async () => {
           setInProgress(false)
-          const audioBlob = StopAudioRecording()
-          setAudioBlob(audioBlob)
-          detectApiResults()
+          const audioBlob = await StopAudioRecording() as unknown as Blob
+          if (!!audioBlob) {
+            detectApiResults(audioBlob)
+          }
         }}>
           <StopCircleOutlinedIcon fontSize='large' />
         </IconButton>
