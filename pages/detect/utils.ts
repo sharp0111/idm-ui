@@ -1,5 +1,3 @@
-import fs from 'fs'
-
 //API to handle audio recording
 export const audioRecorder = {
   /** Stores the recorded audio as Blob objects of audio data as the recording continues*/
