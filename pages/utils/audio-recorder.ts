@@ -28,7 +28,10 @@ export const audioRecorder = {
           audioRecorder.streamBeingCaptured = stream
 
           //create a media recorder instance by passing that stream into the MediaRecorder constructor
-          audioRecorder.mediaRecorder = new MediaRecorder(stream) /*the MediaRecorder interface of the MediaStream Recording
+          const options = {
+            mimeType: 'audio/'
+          }
+          audioRecorder.mediaRecorder = new MediaRecorder(stream, ) /*the MediaRecorder interface of the MediaStream Recording
           API provides functionality to easily record media*/
 
           //clear previously saved audio Blobs, if any
