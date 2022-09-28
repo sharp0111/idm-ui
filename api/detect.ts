@@ -4,7 +4,6 @@
  * Other types of media are NOT supported, such as : mp3, wav, e...
  * AudioRecorder functionality implemented as described in https://ralzohairi.medium.com/audio-recording-in-javascript-96eed45b75ee
  */
-
 import { blobToBase64 } from '../utils'
 
 const URL = 'http://127.0.0.1:5000/songs/detect'
@@ -14,7 +13,8 @@ export async function detectApi(audioBlob: Blob | string) {
     if (typeof audioBlob === 'string') {
       const requestBody: RequestInit = { body: audioBlob, method: 'POST' }
       const responseData = await fetch(URL, requestBody)
-      return responseData.json()
+      const data = responseData.json()
+      return data
     } else {
       const audioBlobBase64 = await blobToBase64(audioBlob) as unknown as BodyInit
       const audioBlobBase64String = audioBlobBase64.toString().replace('data:audio/webm;codecs=opus;base64,', '')

@@ -1,14 +1,14 @@
 import React, { useState, useCallback } from 'react'
 import { IconButton, MicIcon, StopCircleOutlinedIcon } from '../../components'
-import detectApi, { mockRequest } from '../api'
-import { StartAudioRecording } from '../utils'
+import { detectApi, mockRequest } from '../../api'
+import { StartAudioRecording, MapDetectResponse } from '../../utils'
 import styles from './detect.module.scss'
 
 const CN = 'detect-container'
 
 export const Detect: React.FunctionComponent = () => {
   const [inProgress, setInProgress] = useState(false)
-  const [data, setData] = useState(null)
+  const [url, setUrl] = useState('')
 
   const handleStartAudioRecording = useCallback(() => {
     setInProgress(true)
@@ -24,7 +24,11 @@ export const Detect: React.FunctionComponent = () => {
       //   detectApi(audioBlob)
       // }
       const data = await detectApi(mockRequest)
-      console.log(data)
+      if (data) {
+        const url = MapDetectResponse(data)
+        console.log('url::::', url)
+        setUrl(url)
+      }
     } catch (error) {
       throw error
     }
