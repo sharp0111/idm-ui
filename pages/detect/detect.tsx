@@ -37,14 +37,14 @@ export const Detect: React.FunctionComponent = () => {
   }, [openNewTab]);
 
   return (
-    <div>
+    <div className={styles[CN]}>
       {inProgress ? (
-        <IconButton containerclass={styles[CN]} onClick={handleStopAudioRecording}>
-          <StopCircleOutlinedIcon fontSize='large' />
+        <IconButton containerclass={styles.icon__button} onClick={handleStopAudioRecording}>
+          <StopCircleOutlinedIcon className={styles.icon} fontSize='large' />
         </IconButton>
       ) : (
-        <IconButton containerclass={styles[CN]} onClick={handleStartAudioRecording}>
-          <MicIcon fontSize='large' />
+        <IconButton containerclass={styles.icon__button} onClick={handleStartAudioRecording}>
+          <MicIcon className={styles.icon} fontSize='large' />
         </IconButton>
       )}
     </div>
