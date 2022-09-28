@@ -8,7 +8,10 @@ const CN = 'detect-container'
 
 export const Detect: React.FunctionComponent = () => {
   const [inProgress, setInProgress] = useState(false)
-  const [url, setUrl] = useState('')
+
+  const openNewTab = useCallback((url: string) => {
+    window.open(url, "_blank");
+}, [])
 
   const handleStartAudioRecording = useCallback(() => {
     setInProgress(true)
@@ -26,13 +29,12 @@ export const Detect: React.FunctionComponent = () => {
       const data = await detectApi(mockRequest)
       if (data) {
         const url = MapDetectResponse(data)
-        console.log('url::::', url)
-        setUrl(url)
+        openNewTab(url)
       }
     } catch (error) {
       throw error
     }
-  }, []);
+  }, [openNewTab]);
 
   return (
     <div>
